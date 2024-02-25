@@ -1,6 +1,28 @@
 // Función para sumar dos números
+function sumar(num1, num2) {
+  return num1 + num2;
+}
+// Función para restar dos números
+function restar(num1, num2) {
+  return num1 - num2;
+}
+// Función para multiplicar dos números
+function multiplicar(num1, num2) {
+  return num1 * num2;
+}
+// Función para dividir dos números
 function dividir(num1, num2) {
-    return num1 / num2;
+  return num1 / num2;
+}
+// Función para sacar factorial de un numero
+function factorial(num1) {
+  if (num1 < 0) 
+  return -1;
+else if (num1 == 0) 
+return 1;
+else {
+return (num1 * factorial(num1- 1));
+}
 }
 
   // Función principal del programa
