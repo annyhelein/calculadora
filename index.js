@@ -1,6 +1,6 @@
 // Función para sumar dos números
-function restar(num1, num2) {
-    return num1 - num2;
+function multiplicar(num1, num2) {
+    return num1 * num2;
 }
 
   // Función principal del programa
