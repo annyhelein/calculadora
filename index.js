@@ -28,6 +28,10 @@ return (num1 * factorial(num1- 1));
 function exponente(base, exponente) {
   return base ** exponente
 }
+// Función para sacar la raiz cuadrada de un numero
+function raizCuadrada(num) {
+  return Math.sqrt (num)
+}
   // Función principal del programa
 function calculadora() {
     var opcion = prompt(
