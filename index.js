@@ -24,7 +24,18 @@ else {
 return (num1 * factorial(num1- 1));
 }
 }
+<<<<<<< HEAD
 
+=======
+// Función para sacar exponente de un numero
+function exponente(base, exponente) {
+  return base ** exponente
+}
+// Función para sacar la raiz cuadrada de un numero
+function raizCuadrada(num) {
+  return Math.sqrt (num)
+}
+>>>>>>> feature/opcion-menu-operacion-raizcuadrada
   // Función principal del programa
 function calculadora() {
     var opcion = prompt(
